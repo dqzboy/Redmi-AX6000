@@ -22,8 +22,8 @@
 
 点击下方链接查看详细教程：
 
-- [Redmi AX6000 刷入 OpenWrt 教程](./Redmi-AX6000刷OpenWrt/README.md)
 - [Redmi-AX6000路由器科学上网](./Redmi-AX6000路由器科学上网/README.md)
+- [Redmi AX6000 刷入 OpenWrt 教程](./Redmi-AX6000刷OpenWrt/README.md)
 
 ## 所需工具
 
