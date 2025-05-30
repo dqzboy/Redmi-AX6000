@@ -214,7 +214,7 @@ mtd verify /mtd5_FIP.bin FIP
 
 #### 1、上传官方修改版uboot专用固件
 
-选择default分区，然后上传官方红米AX6000固件，版本1.0.70，这个版本是官方未公布的版本，是一个隐藏版本
+选择default分区，然后上传官方红米AX6000固件(修改版，支持uboot识别)，版本1.0.70，这个版本是官方未公布的版本，是一个隐藏版本
 ![image](https://github.com/user-attachments/assets/57b38165-a37f-4d29-b414-aeb2655e6673)
 ![image](https://github.com/user-attachments/assets/0d044fc6-b050-489a-b91a-b59e44868f07)
 ![image](https://github.com/user-attachments/assets/7d02a231-588b-4c35-b597-6752cd5bde6e)
