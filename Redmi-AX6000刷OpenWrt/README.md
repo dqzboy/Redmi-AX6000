@@ -1,7 +1,7 @@
 # Redmi AX6000 刷入 OpenWrt 教程
 
-> 所需刷机软件包下载：[网盘链接](https://pan.baidu.com/s/1oidLLpI6KeaGFq3SMjJVBA?pwd=3ms4)
-
+> 所需刷机软件包下载：[网盘链接](https://pan.baidu.com/s/1oidLLpI6KeaGFq3SMjJVBA)
+ 提取码：3ms4
 ## 一、准备工作说明
 
 在进行红米AX6000路由器的刷机操作之前，需要做好以下准备工作，以确保刷机过程的顺利和稳定：
