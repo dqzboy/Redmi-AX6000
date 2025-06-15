@@ -28,7 +28,7 @@
 ## 所需工具
 
 所有刷机所需的工具和固件已打包上传，可通过以下链接获取：
-- [刷机工具包下载](https://pan.baidu.com/s/1oidLLpI6KeaGFq3SMjJVBA?pwd=3ms4)（提取码：3ms4）
+- [刷机工具包下载](https://pan.baidu.com/s/1oidLLpI6KeaGFq3SMjJVBA)（提取码：3ms4）
 
 ## 注意事项
 
