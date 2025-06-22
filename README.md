@@ -36,6 +36,12 @@
 
 **免责声明**：本项目仅供学习和参考之用，不对因刷机导致的问题承担责任。如果刷机过程中出现任何问题，包括设备损坏（俗称"变砖"）等，需要您自行解决。
 
+## 推广
+
+<a href="https://dqzboy.github.io/proxyui/racknerd" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/dqzboy/Images/dqzboy-proxy/render-vps.png" alt="高性价比海外 VPS 推荐" title="点击查看">
+</a>
+
 ## 贡献
 
 欢迎提交Issue或Pull Request来完善本项目。如果这个项目对您有帮助，请考虑给它点个Star⭐。
