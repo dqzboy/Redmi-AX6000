@@ -206,15 +206,15 @@ mtd verify /mtd5_FIP.bin FIP
 
 > **注意**：蓝光颜色比较浅，要仔细观察才能看清楚，不然会一直以为刷机没成功
 
-### 方式二：通过mt798x uboot刷官方固件恢复
+### 方式二：通过mt798x uboot刷官方固件恢复(推荐)
 
-需要再次恢复至hanwckf mt798x uboot即可，拔掉路由器电源，接着按住路由器的RESET按钮后通电开机，等待15秒后松开RESET。心里默念15秒
+- 需要再次恢复至hanwckf mt798x uboot即可，拔掉路由器电源，接着按住路由器的RESET按钮后通电开机，等待15秒后松开RESET。心里默念15秒
 
 > **注意**：恢复后记得手动更改PC以太网IP为192.168.31.100/24，然后浏览器输入192.168.31.1 就可以进到 mt798x uboot UI界面了
 
 #### 1、上传官方修改版uboot专用固件
 
-选择default分区，然后上传官方红米AX6000固件(修改版，支持uboot识别)，版本1.0.70，这个版本是官方未公布的版本，是一个隐藏版本
+选择**default**分区，然后上传官方红米AX6000固件(修改版，支持uboot识别)，版本`1.0.70`，这个版本是官方未公布的版本，是一个隐藏版本
 ![image](https://github.com/user-attachments/assets/57b38165-a37f-4d29-b414-aeb2655e6673)
 ![image](https://github.com/user-attachments/assets/0d044fc6-b050-489a-b91a-b59e44868f07)
 ![image](https://github.com/user-attachments/assets/7d02a231-588b-4c35-b597-6752cd5bde6e)
@@ -225,4 +225,17 @@ mtd verify /mtd5_FIP.bin FIP
 
 ![image](https://github.com/user-attachments/assets/2b9e1f5b-235d-4166-b300-5ded3c347a38)
 ![image](https://github.com/user-attachments/assets/5f4b8659-226c-4db5-84f9-067b58a3d559)
+
+#### 3、Telnet密码获取
+> 恢复出厂Telnet密码会被重置，https://miwifi.dev/ssh输入路由器的SN来计算出登录的初始密码。
+
+- SN码查看：登入路由器管理后台首页即可看到http://192.168.31.1/
+<img width="1052" height="240" alt="image" src="https://github.com/user-attachments/assets/9cd22f52-8a43-4edf-94f1-85abd70ce944" />
+
+
+- 计算Telnet初始密码
+
+<img width="1218" height="348" alt="image" src="https://github.com/user-attachments/assets/65d5e5d9-938f-4e77-ae37-8ff64eeb9444" />
+<img width="1222" height="658" alt="image" src="https://github.com/user-attachments/assets/b9918698-f502-4e82-9b75-c7161ecb971e" />
+
 
