@@ -227,9 +227,9 @@ mtd verify /mtd5_FIP.bin FIP
 ![image](https://github.com/user-attachments/assets/5f4b8659-226c-4db5-84f9-067b58a3d559)
 
 #### 3、Telnet密码获取
-> 恢复出厂Telnet密码会被重置，https://miwifi.dev/ssh输入路由器的SN来计算出登录的初始密码。
+> 恢复出厂Telnet密码会被重置，`https://miwifi.dev/ssh` 输入路由器的SN来计算出登录的初始密码。
 
-- SN码查看：登入路由器管理后台首页即可看到http://192.168.31.1/
+- SN码查看：登入路由器管理后台首页即可看到 `http://192.168.31.1/`
 <img width="1052" height="240" alt="image" src="https://github.com/user-attachments/assets/9cd22f52-8a43-4edf-94f1-85abd70ce944" />
 
 
