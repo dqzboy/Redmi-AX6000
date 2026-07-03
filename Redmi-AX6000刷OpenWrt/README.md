@@ -238,4 +238,7 @@ mtd verify /mtd5_FIP.bin FIP
 <img width="1218" height="348" alt="image" src="https://github.com/user-attachments/assets/65d5e5d9-938f-4e77-ae37-8ff64eeb9444" />
 <img width="1222" height="658" alt="image" src="https://github.com/user-attachments/assets/b9918698-f502-4e82-9b75-c7161ecb971e" />
 
-
+- 登入进去后，我们重置下root密码，防止下次登入忘记
+```bash
+echo -e 'admin\nadmin' | passwd root
+```
