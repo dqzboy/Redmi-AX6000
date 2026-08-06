@@ -96,12 +96,12 @@ dd if=/dev/mtd5 of=/tmp/mtd5_FIP.bin
 
 ```bash
 # 验证md5
-md5sum /mt7986_redmi_ax6000-fip-fixed-parts-multi-layout.bin
+md5sum /tmp/mt7986_redmi_ax6000-fip-fixed-parts-multi-layout.bin
 # 下面的操作就是擦出分区和写入uboot的命令了。
 ## 注意：擦除和写入FIP分区时不能断电、重启，不然路由器就会直接变砖。
 mtd erase FIP
-mtd write /mt7986_redmi_ax6000-fip-fixed-parts-multi-layout.bin FIP
-mtd verify /mt7986_redmi_ax6000-fip-fixed-parts-multi-layout.bin FIP
+mtd write /tmp/mt7986_redmi_ax6000-fip-fixed-parts-multi-layout.bin FIP
+mtd verify /tmp/mt7986_redmi_ax6000-fip-fixed-parts-multi-layout.bin FIP
 ```
 
 ![image](https://github.com/user-attachments/assets/490cc665-d9c6-4616-b5bf-04d4b31f13a1)
